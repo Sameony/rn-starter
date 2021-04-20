@@ -8,7 +8,7 @@ const ComponentsScreen = () => {
     return( 
     <View>
     <Text style={cssidk.textStyle}>This is the ComponentsScreen or something idk</Text>
-    <Text>Lmao wassssuuuuup alright whatever</Text>
+    <Text style={cssidk.h2style}>Lmao wassssuuuuup alright whatever</Text>
     {bleck}
     </View>
     );
@@ -19,7 +19,11 @@ const cssidk = StyleSheet.create({
     {
         fontSize: 40
         
-        
+    },
+
+    h2style:
+    {
+        fontSize: 70
     }
 });
 
